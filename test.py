@@ -10,7 +10,7 @@ while str(a) == "True":
     
     print("Started")
     print("Wait for 5 min")
-    print(str(time.time())
+    print(str(time.time()))
     url2 = "http://readoapp.com"
     ha = requests.get(url2,headers={"User-Agent":"Nasa"})
     print(ha)
