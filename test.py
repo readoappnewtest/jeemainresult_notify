@@ -10,6 +10,9 @@ while str(a) == "True":
     
     print("Started")
     print("Wait for 5 min")
+    url2 = "http://readoapp.com"
+    ha = requests.get(url2,headers={"User-Agent":"Nasa"})
+    print(ha)
     b = b + 1
     file3 = open("wait.txt","w")
     file3.write(str(b))
